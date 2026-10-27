@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ImmsMail · Descargar</title>
   <meta name="description" content="ImmsMail: todas tus cuentas de correo en un solo lugar, con seguridad y privacidad.">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
   <style>
     :root {
       --bg: #f5f6f8; --surface: #ffffff; --text: #1b1f24; --muted: #5f6b7a;
@@ -19,7 +21,8 @@
       font-family: "Segoe UI", system-ui, -apple-system, sans-serif; line-height: 1.5;
     }
     main { max-width: 760px; margin: 0 auto; padding: 56px 16px 40px; }
-    h1 { font-size: 44px; margin: 0 0 8px; letter-spacing: -0.02em; }
+    h1 { font-size: 44px; margin: 0 0 8px; letter-spacing: -0.02em; display: flex; align-items: center; gap: 16px; }
+    h1 img { width: 64px; height: 64px; }
     .lead { font-size: 20px; color: var(--muted); margin: 0 0 32px; }
     .download {
       display: inline-block; background: var(--accent); color: var(--accent-text);
@@ -38,7 +41,7 @@
 </head>
 <body>
   <main>
-    <h1>ImmsMail</h1>
+    <h1><img src="icon.svg" alt="">ImmsMail</h1>
     <p class="lead">Todas tus cuentas de correo en un solo lugar, con seguridad y privacidad.</p>
 
     <a class="download" href="https://github.com/ImmsMail/immsmail.github.io/releases/latest/download/ImmsMail-Setup.exe">
