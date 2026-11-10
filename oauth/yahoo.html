@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-UvyssgBEqUue2AbHTHJSJ+N8cmBsIAtpLWR4TudRmeI='; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<title>ImmsMail: volviendo a la app</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 520px; margin: 48px auto; padding: 0 16px; color: #1f2328; background: #fff; }
+  h1 { font-size: 20px; }
+  p { line-height: 1.5; }
+</style>
+</head>
+<body>
+<!-- Yahoo solo acepta direcciones https para volver de su inicio de sesión. Esta página
+     devuelve su respuesta a ImmsMail, que espera en este mismo equipo (o teléfono).
+     No guarda nada, no usa analíticas ni código externo. El código que trae solo sirve
+     junto con un secreto (PKCE) que nunca sale del equipo del usuario. -->
+<h1>Volviendo a ImmsMail…</h1>
+<p id="ayuda" hidden>Si no pasa nada, abre ImmsMail, pulsa otra vez «Conectar con Yahoo» y no cierres la app mientras inicias sesión. Ya puedes cerrar esta pestaña.</p>
+<script>(function () {
+  var q = location.search;
+  // Solo se reenvía la respuesta de Yahoo (code, state o error), tal cual. Nada se guarda.
+  var safe = /^?[A-Za-z0-9._~%&=+-]*$/.test(q) ? q : "";
+  var app = /Android/i.test(navigator.userAgent) ? "com.immsmail.app://oauth" : "http://localhost:47811/";
+  if (safe) location.replace(app + safe);
+  setTimeout(function () { document.getElementById("ayuda").hidden = false; }, 3000);
+})();</script>
+</body>
+</html>
