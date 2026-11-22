@@ -1,6 +1,6 @@
 {
-    "version":  "0.1.24",
-    "url":  "https://github.com/ImmsMail/immsmail.github.io/releases/download/android-v0.1.24/ImmsMail.apk",
-    "sha256":  "298b82a90f6c6c7ce2d23ff1f3e65d95918c42135f32aaf83e9f4009e551f24b",
-    "notes":  "Nuevo: deshacer envío, enviar más tarde, posponer correos, aviso si no te responden, aviso de correo falso y búsqueda dentro de los PDF adjuntos. Arreglado: el botón Asistente ya no se repite."
+    "version":  "0.1.25",
+    "url":  "https://github.com/ImmsMail/immsmail.github.io/releases/download/android-v0.1.25/ImmsMail.apk",
+    "sha256":  "bc70ff2dd73e2a2a063fc69379be299f2da44fbb38a7d6ed48320164f158ff57",
+    "notes":  "Nuevo: las imágenes de los correos se ven solas, sin tocar ningún botón (se puede cambiar en Configuración)."
 }
