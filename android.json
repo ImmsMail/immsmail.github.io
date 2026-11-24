@@ -1,6 +1,6 @@
 {
-    "version":  "0.1.25",
-    "url":  "https://github.com/ImmsMail/immsmail.github.io/releases/download/android-v0.1.25/ImmsMail.apk",
-    "sha256":  "bc70ff2dd73e2a2a063fc69379be299f2da44fbb38a7d6ed48320164f158ff57",
-    "notes":  "Nuevo: las imágenes de los correos se ven solas, sin tocar ningún botón (se puede cambiar en Configuración)."
+    "version":  "0.1.26",
+    "url":  "https://github.com/ImmsMail/immsmail.github.io/releases/download/android-v0.1.26/ImmsMail.apk",
+    "sha256":  "d0a12a5d4675653090694a01b6e710e500a7ebca3bc6e99d0f13b7000a9a2117",
+    "notes":  "Léeme los importantes ahora revisa todos los correos sin leer que llegaron hoy (antes solo los 10 últimos)."
 }
