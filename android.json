@@ -1,6 +1,6 @@
 {
-    "version":  "0.1.26",
-    "url":  "https://github.com/ImmsMail/immsmail.github.io/releases/download/android-v0.1.26/ImmsMail.apk",
-    "sha256":  "d0a12a5d4675653090694a01b6e710e500a7ebca3bc6e99d0f13b7000a9a2117",
-    "notes":  "Léeme los importantes ahora revisa todos los correos sin leer que llegaron hoy (antes solo los 10 últimos)."
+    "version":  "0.1.27",
+    "url":  "https://github.com/ImmsMail/immsmail.github.io/releases/download/android-v0.1.27/ImmsMail.apk",
+    "sha256":  "bc99606449c7c78219172dfc6c7bf08984abbb524c3fd5e9843f3e6935153993",
+    "notes":  "Nuevo logo de IMMS. Las reglas ahora ponen el correo en su carpeta y lo dejan también en la Bandeja de entrada, para que no se te pase nada."
 }
